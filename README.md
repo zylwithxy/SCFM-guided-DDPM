@@ -42,7 +42,7 @@ conda activate SCFM
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 
 # 2. Clone the Repo and Install dependencies
-git clone https://github.com/zylwithxy/SCFM-guided-DDPM
+git clone https://github.com/zylwithxy/SCFM-guided-DDPM.git
 bash setup.sh # install flow module dependencies
 pip install -r requirements.txt
 
